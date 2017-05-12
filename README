@@ -1,0 +1,27 @@
+Test JBoss 7.1 deploy EAR 
+=========================
+
+Try to learn deploy Docker with JBoss 7.1.1
+
+Run
+---
+
+sudo docker run -i -t -p9090:8080 jboss-app /opt/jboss/bin/standalone.sh -Djboss.bind.address=0.0.0.0 -Djboss.bind.address.management=0.0.0.0
+
+Demo
+----
+
+WS - REST
+
+http://localhost:9090/ModuleWS/api/v1/dummy
+
+Web App
+
+JSP - http://localhost:9090/ModuleWebEAR
+
+JSF - http://localhost:9090/ModuleWebEAR/index.jsf
+
+TODO
+----
+
+Add datasource to JBoss

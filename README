@@ -14,12 +14,15 @@ Demo
 WS - REST
 
 http://localhost:9090/ModuleWS/api/v1/dummy
+http://localhost:9090/ModuleWS/api/v1/customer
+
 
 Web App
 
-JSP - http://localhost:9090/ModuleWebEAR
+JSP - http://localhost:9090/ModuleWeb
 
-JSF - http://localhost:9090/ModuleWebEAR/index.jsf
+JSF - http://localhost:9090/ModuleWeb/index.jsf
+JSF - http://localhost:9090/ModuleWeb/customers.jsf
 
 TODO
 ----
